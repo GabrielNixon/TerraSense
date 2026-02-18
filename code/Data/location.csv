@@ -1,0 +1,51 @@
+id,name,lat,lon
+mumbai_01,Mumbai,19.0760,72.8777
+delhi_01,Delhi,28.6139,77.2090
+bangalore_01,Bengaluru,12.9716,77.5946
+kolkata_01,Kolkata,22.5726,88.3639
+sydney_01,Sydney,-33.8688,151.2093
+melbourne_01,Melbourne,-37.8136,144.9631
+brisbane_01,Brisbane,-27.4698,153.0251
+perth_01,Perth,-31.9523,115.8613
+cairo_01,Cairo,30.0444,31.2357
+lagos_01,Lagos,6.5244,3.3792
+nairobi_01,Nairobi,-1.2921,36.8219
+capetown_01,Cape Town,-33.9249,18.4241
+johannesburg_01,Johannesburg,-26.2041,28.0473
+accra_01,Accra,5.6037,-0.1870
+addis_01,Addis Ababa,8.9806,38.7578
+sao_01,Sao Paulo,-23.5558,-46.6396
+rio_01,Rio de Janeiro,-22.9068,-43.1729
+lima_01,Lima,-12.0464,-77.0428
+bogota_01,Bogota,4.7110,-74.0721
+santiago_01,Santiago,-33.4489,-70.6693
+buenos_01,Buenos Aires,-34.6037,-58.3816
+mexico_01,Mexico City,19.4326,-99.1332
+la_01,Los Angeles,34.0522,-118.2437
+nyc_01,New York,40.7128,-74.0060
+toronto_01,Toronto,43.6532,-79.3832
+vancouver_01,Vancouver,49.2827,-123.1207
+chicago_01,Chicago,41.8781,-87.6298
+miami_01,Miami,25.7617,-80.1918
+houston_01,Houston,29.7604,-95.3698
+seattle_01,Seattle,47.6062,-122.3321
+london_01,London,51.5074,-0.1278
+paris_01,Paris,48.8566,2.3522
+berlin_01,Berlin,52.5200,13.4050
+madrid_01,Madrid,40.4168,-3.7038
+rome_01,Rome,41.9028,12.4964
+istanbul_01,Istanbul,41.0082,28.9784
+moscow_01,Moscow,55.7558,37.6173
+stp_01,St Petersburg,59.9311,30.3609
+tehran_01,Tehran,35.6892,51.3890
+dubai_01,Dubai,25.2048,55.2708
+riyadh_01,Riyadh,24.7136,46.6753
+tokyo_01,Tokyo,35.6762,139.6503
+seoul_01,Seoul,37.5665,126.9780
+beijing_01,Beijing,39.9042,116.4074
+shanghai_01,Shanghai,31.2304,121.4737
+hongkong_01,Hong Kong,22.3193,114.1694
+singapore_01,Singapore,1.3521,103.8198
+jakarta_01,Jakarta,-6.2088,106.8456
+manila_01,Manila,14.5995,120.9842
+auckland_01,Auckland,-36.8485,174.7633
