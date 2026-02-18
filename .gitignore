@@ -54,4 +54,8 @@ cover/
 
 # Workbench Project Layout
 data/scratch/*
-!data/scratch/.gitkeep
+!data/scratch/.gitkeepdata
+\ndata/\n
+*.csv
+*.ipynb
+models
