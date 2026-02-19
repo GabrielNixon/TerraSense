@@ -74,3 +74,7 @@ code/prithvi_distill/
 code/prithvi_teacher/
 code/timesen2crop_cache/
 code/data_hf_eurosat/
+code/eval/eval_logs/
+code/eval/data_eurosat/
+jupyterlab.lob
+jupyterlab.log

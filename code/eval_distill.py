@@ -273,5 +273,4 @@ def main():
     print("\nsaved:", out)
 
 if __name__ == "__main__":
-    main()source .venv/bin/activate
-python eval_distill.py
+    main()

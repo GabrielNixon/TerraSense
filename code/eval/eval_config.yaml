@@ -1,0 +1,63 @@
+# code/eval/eval_config.yaml
+
+paths:
+  # project layout: project_root/code and project_root/data and project_root/models are siblings
+  data_root: "../data"
+  models_root: "../models"
+
+  # teacher + student assets live under models_root
+  teacher_dir: "prithvi_teacher"
+  teacher_ckpt: "prithvi_teacher/Prithvi_EO_V2_300M_TL.pt"
+
+  student_ckpts:
+    - "ckpts_regime_best_trial14_large/student_regime_ep10.pt"
+
+datasets:
+  # Each is interpreted relative to data_root unless absolute
+  levircd_root: "LEVIRCD"
+  oscd_root: "oscd"              # parent containing the 3 sister dirs
+  s2looking_root: "S2Looking"
+  timesen2crop_cache_dir: "timesen2crop_cache"
+
+model:
+  student_embed_dim: 512
+  student_depth: 12
+  student_heads: 8
+  K_reg: 5
+
+common:
+  seed: 42
+  num_frames: 3
+
+change_detection:
+  crop: 256
+  batch_size: 8
+  epochs: 5
+  lr: 0.001
+
+oscd:
+  band_order: "B01,B02,B03,B04,B05,B06,B07,B08,B8A,B09,B10,B11,B12"
+  use_bands: "B02,B03,B04,B08,B11,B12"
+
+s2looking:
+  use_label: "label"     # label / label1 / label2
+  posrate_n: 200
+
+timesen2crop:
+  fold: 0
+  train_n: 50000
+  test_n: 20000
+  batch_size: 64
+  img_size: 64
+  days: "60,180,300"
+  band_idx: "0,1,2,6,7,8"
+  use: "cls"             # cls / pm / cat
+  probe_epochs: 8
+  probe_lr: 0.001
+  probe_wd: 0.0001
+
+runner:
+  # tasks: ["eurosat", "levircd", "oscd", "s2looking", "timesen2crop"]
+  tasks: ["timesen2crop"]
+  log_dir: "eval_logs"
+  continue_on_error: false
