@@ -1,6 +1,3 @@
-
-You said:
-
 # Regime-Aware Remote Sensing Embeddings (Hackathon Repo)
 
 ![Mumbai (2016 vs 2024)](assets/mum.jpeg)
