@@ -54,8 +54,23 @@ cover/
 
 # Workbench Project Layout
 data/scratch/*
-!data/scratch/.gitkeepdata
-\ndata/\n
+!data/scratch/.gitkeep=
+data/
 *.csv
 *.ipynb
-models
+models/
+code/LEVIRCD/
+code/Onera Satellite Change Detection dataset - Images/
+code/Onera Satellite Change Detection dataset - Test Labels/
+code/Onera Satellite Change Detection dataset - Train Labels/
+code/S2Looking/
+code/ckpts_regime/
+code/ckpts_regime_best_trial14_large/
+code/ckpts_regime_optuna/
+code/ckpts_regime_optuna_old/
+hls_chips_all/
+optuna_distill_regime.db
+code/prithvi_distill/
+code/prithvi_teacher/
+code/timesen2crop_cache/
+code/data_hf_eurosat/
